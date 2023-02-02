@@ -1,0 +1,110 @@
+.products{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    &__btn{
+        margin-top: 58px;
+        text-align: center;
+    }
+    &__link{
+        padding: 10px 20px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        color: #EF7C00;
+        border-radius: 5px;
+        border: 2px solid #EF7C00;
+    }
+
+    .tabs__content {
+        display: none; /* по умолчанию прячем все блоки */
+      }
+      .tabs__content.active {
+        display: block; /* по умолчанию показываем нужный блок */
+      }
+
+    .title{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        color: #2C2D2E;
+        margin-bottom: 32px;
+        span{
+            color: #EF7C00;
+        }
+    }
+    .tabs__caption{
+        display: flex;
+        gap: 64px;
+        justify-content: center;
+        list-style-type: none;
+        .tabs__title{
+            padding: 13px 20px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 13px;
+            color: #EF7C00;
+            border-radius: 61px;
+            border: 1px solid rgb(207, 207, 207);
+            cursor: pointer;
+            margin-bottom: 48px;
+            &.active{
+                background: #EF7C00;
+                border: none;
+                color: #FFFFFF;
+            }
+        }
+    }
+    .products-nav{
+        position: relative;
+        bottom: 200px;
+        .products-prev{
+            position: absolute;
+            left: -54px;
+            width: 27px;
+            background: none;
+            &:hover{
+                background: none;
+            }
+            &__btn{
+                background: none;
+                &:hover{
+                    background: none;
+                }
+            }
+        }
+        .products-next{
+            position: absolute;
+            right: -64px;
+            width: 27px;
+            background: none;
+            &:hover{
+                background: none;
+            }
+            &__btn{
+                background: none;
+                &:hover{
+                    background: none;
+                }
+            }
+        }
+    }
+
+    .owl-theme .owl-dots .owl-dot span {
+        width: 10px;
+        height: 10px;
+        background: none;
+        display: block;
+        transition: opacity .2s ease;
+        border-radius: 30px;
+        border: 1px solid #EF7C00;
+    }
+    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+        background: #EF7C00;
+    }
+    
+}

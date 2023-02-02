@@ -1,0 +1,73 @@
+.team{
+    padding-bottom: 50px;
+    .row{
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    &__title{
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        color: #2C2D2E;
+        margin-bottom: 32px;
+        span{
+            color: #EF7C00;
+        }
+    }
+    &__item{
+        width: 203px;
+        &-portret{
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        &-name{
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 20px;
+            text-align: center;
+            color: #2C2D2E;
+            margin-top: 12px;
+        }
+        &-position{
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 13px;
+            text-align: center;  
+            color: #919399;
+            margin-top: 4px;
+            margin-bottom: 16px;
+        }
+        &-tel{
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 13px;
+            text-align: center;
+            margin-bottom: 4px;
+        }
+        &-email{
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 13px;
+            text-align: center;
+            color: #2C2D2E;
+            margin-top: 8px;
+        }
+    }
+    &__link{
+        padding: 10px 20px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        color: #EF7C00;
+        border: 1px solid #EF7C00;
+        border-radius: 5px;
+        
+        &-center{
+            text-align: center;
+            margin-top: 62px;
+        }
+    }
+}

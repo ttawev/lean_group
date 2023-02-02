@@ -1,0 +1,35 @@
+@import url('../libs/bootstrap/css/bootstrap-grid.min.css');
+@import url(../src/fonts/Montserrat/montserrat.css);
+@import url(../libs/owl/owl.carousel.min.css);
+@import url(../libs/owl/owl.theme.default.min.css);
+@import url(https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: inherit;
+}
+html {
+    scroll-behavior: smooth; /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */ 
+  }
+
+@import './header';
+@import './home';
+@import './about';
+@import './certificate';
+@import './products';
+@import './info';
+@import './team';
+@import './news';
+@import './contacts';
+@import './map';
+@import './footer';
+
+
+
+
+
+@import './media';

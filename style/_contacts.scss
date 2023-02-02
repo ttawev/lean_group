@@ -1,0 +1,79 @@
+.contacts{
+    padding-top: 40px;
+    padding-bottom: 44px;
+    background: rgba(0, 16, 61, 0.06);
+    &__title{
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        color: #2C2D2E;
+        margin-bottom: 32px;
+    }
+    &__country{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #2C2D2E;
+    }
+    &__tel{
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 13px;
+        color: #919399;
+        margin-top: 24px;
+        margin-bottom: 8px;
+    }
+    &__number{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: #2C2D2E;
+
+    }
+    &__email{
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 13px;
+        color: #919399;
+        margin-top: 12px;
+        margin-bottom: 8px;
+    }
+    &__address{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: #2C2D2E;
+    }
+    &__location{
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 13px;
+        color: #919399;
+        margin-top: 12px;
+        margin-bottom: 8px;
+    }
+    &__street{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: #2C2D2E;
+        width: 260px;
+    }
+    .col-3{
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -17px;
+            width: 1px;
+            height: 287px;
+            background: #c7c7c7;
+            
+        }
+        &:first-child::before{
+            display: none;
+        }
+    }
+}

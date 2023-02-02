@@ -1,0 +1,30 @@
+.about{
+    padding-top: 40px;
+    padding-bottom: 56px;
+    .title{
+        margin-bottom: 32px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        color: #2C2D2E;
+        span{
+            color: #EF7C00;
+        }
+    }
+    p{
+        margin-bottom: 30px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        color: #2C2D2E;
+        width: 552px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+}

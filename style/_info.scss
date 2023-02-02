@@ -1,0 +1,107 @@
+.info{
+    padding-top: 90px;
+    padding-bottom: 80px;
+    margin: 0;
+    &-card{
+        background: url('../src/img/form_banner\ 1.png') center;
+        width: 1150px;
+        height: 376px;
+        padding: 24px 20px;
+        box-shadow: #2C2D2E;
+        border-radius: 10px;
+        box-shadow: 0 -3em 3em rgba(0,0,0,0.1);
+        margin: 0 auto;
+    }
+    &__title{
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        color: #2C2D2E;
+        margin-bottom: 16px;
+        span{
+            color: #EF7C00;
+        }
+    }
+    &__desc{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: #2C2D2E;
+        width: 400px;
+    }
+
+    &__form{
+        display: flex;
+        flex-wrap: wrap;
+        width: 500px;
+        gap: 12px;
+        margin-top: 36px;
+        &-name{
+            position: relative;
+            overflow: hidden;
+            &-logo{
+                position: absolute;
+                padding: 13px;
+                border-right: 1px solid rgb(201, 201, 201);
+            }
+            &-title{
+                width: 217px;
+                height: 40px;
+                border-radius: 5px;
+                border: 1px solid rgb(201, 201, 201);
+                &::placeholder{
+                    padding-left: 51px;
+                    color: #919399;
+                }
+            }
+            
+        }
+        &-tel{
+            position: relative;
+            overflow: hidden;
+            &-logo{
+                position: absolute;
+                padding: 13px;
+                border-right: 1px solid rgb(201, 201, 201);
+            }
+            &-title{
+                width: 217px;
+                height: 40px;
+                border-radius: 5px;
+                border: 1px solid rgb(201, 201, 201);
+                &::placeholder{
+                    padding-left: 51px;
+                    color: #919399;
+                }
+            }
+            
+        }
+        &-text{
+            width: 446px;
+            height: 80px;
+            background: #FFFFFF; 
+            border: 1px solid rgba(0, 16, 61, 0.12);
+            border-radius: 4px;
+            &::placeholder{
+                padding-top: 10px;
+                padding-left: 12px;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 20px;     
+                color: #919399;
+            }
+        }
+        &-btn{
+            padding: 10px 20px;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;
+            text-align: center;      
+            color: #FFFFFF;
+            background: #EF7C00;
+            border-radius: 4px;
+            border: none;
+        }
+
+    }
+}
