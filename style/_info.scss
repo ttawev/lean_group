@@ -32,46 +32,49 @@
 
     &__form{
         display: flex;
-        flex-wrap: wrap;
-        width: 500px;
         gap: 12px;
+        flex-wrap: wrap;
+        width: 486px;
         margin-top: 36px;
         &-name{
-            position: relative;
-            overflow: hidden;
+            display: flex;
+            align-items: center;
+            gap: 0;
             &-logo{
-                position: absolute;
                 padding: 13px;
-                border-right: 1px solid rgb(201, 201, 201);
+                border: 1px solid rgba(0, 16, 61, 0.12);
+                border-radius: 4px 0px 0px 4px;
             }
             &-title{
-                width: 217px;
-                height: 40px;
-                border-radius: 5px;
-                border: 1px solid rgb(201, 201, 201);
+                width: 178px;
+                height: 43px;
+                background: #FFFFFF;      
+                border: 1px solid rgba(0, 16, 61, 0.12);
+                border-radius: 0px 4px 4px 0px;
+                margin-left: -1px;
                 &::placeholder{
-                    padding-left: 51px;
-                    color: #919399;
+                    padding-left: 11px;
                 }
             }
-            
         }
         &-tel{
-            position: relative;
-            overflow: hidden;
+            display: flex;
+            align-items: center;
+            gap: 0;
             &-logo{
-                position: absolute;
                 padding: 13px;
-                border-right: 1px solid rgb(201, 201, 201);
+                border: 1px solid rgba(0, 16, 61, 0.12);
+                border-radius: 4px 0px 0px 4px;
             }
             &-title{
-                width: 217px;
-                height: 40px;
-                border-radius: 5px;
-                border: 1px solid rgb(201, 201, 201);
+                width: 178px;
+                height: 43px;
+                background: #FFFFFF;      
+                border: 1px solid rgba(0, 16, 61, 0.12);
+                border-radius: 0px 4px 4px 0px;
+                margin-left: -1px;
                 &::placeholder{
-                    padding-left: 51px;
-                    color: #919399;
+                    padding-left: 11px;
                 }
             }
             

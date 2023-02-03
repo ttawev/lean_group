@@ -22,6 +22,21 @@ $(document).ready(function(){
     owl.owlCarousel({
         items: 5,
         margin: 28,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:3,
+                nav:false
+            },
+            1000:{
+                items:5,
+                nav:true,
+                loop:false
+            }
+        }
     });
     // Go to the next item
     $('.owl-next').click(function() {
@@ -45,6 +60,21 @@ $(document).ready(function(){
         items: 5,
         margin: 20,
         loop: true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:3,
+                nav:false
+            },
+            1000:{
+                items:5,
+                nav:true,
+                loop:false
+            }
+        }
     }
     );
     // Go to the next item

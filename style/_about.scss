@@ -7,7 +7,6 @@
         font-weight: 600;
         font-size: 32px;
         line-height: 40px;
-        text-align: center;
         color: #2C2D2E;
         span{
             color: #EF7C00;
@@ -19,12 +18,55 @@
         font-weight: 400;
         font-size: 15px;
         line-height: 20px;
-        display: flex;
-        align-items: center;
         color: #2C2D2E;
         width: 552px;
         &:last-child{
             margin-bottom: 0;
         }
+    }
+    &__link{
+        padding: 10px 20px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        color: #EF7C00;
+        border: 1px solid #EF7C00;
+        border-radius: 5px;
+        display: inline-block;
+        margin-top: 42px;
+    }
+}
+
+.history{
+    padding-top: 32px;
+    padding-bottom: 40px;
+    background: rgba(0, 16, 61, 0.06);
+    &__link{
+        margin-bottom: 32px;
+        &-item{
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 13px;
+            color: #919399;
+            &:last-child{
+                color: #EF7C00;
+            }
+        }
+    }
+    &__title{
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        color: #2C2D2E;
+        margin-bottom: 12px;
+    }
+    &__desc{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: #2C2D2E;
+        width: 648px;
+
     }
 }
